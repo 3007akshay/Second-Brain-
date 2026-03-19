@@ -15,7 +15,7 @@ export function DashBoard() {
   return <div>
     <SideBar />
 
-    <div className="p-4 bg-gray-100 ml-76 m-h-screen ">
+    <div className="p-4 bg-gray-100 ml-72 min-h-screen ">
       <CreateContentModel open={openModel} onClose={() => setopenModel(false)}></CreateContentModel>
       <div className="flex justify-end gap-4 ">
         <Button onClick={() => setopenModel(true)} variant="primary" text="Add content" startIcon={<PlusIcon />}></Button>
